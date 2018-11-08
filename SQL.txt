@@ -1,0 +1,23 @@
+Criando tabelas
+
+	Clientes
+		CREATE TABLE Clientes (nome varchar(255), cpf int, email varchar(255), telefone varchar(50));
+	Colaboradores
+		CREATE TABLE Colaboradores (nome varchar(255), cpf int, cargo varchar(255), email varchar(255), telefone varchar(50), endereco varchar(255));
+	Tipo_Brinquedo
+		CREATE TABLE Tipo_Brinquedo (ID_Tipo int, nome varchar(255), valor int);
+	Brinquedos
+		CREATE TABLE Brinquedos (ID_Brinquedo int, tipo int);
+
+
+
+Inserindo itens nas tabelas
+	Clientes
+		INSERT INTO Clientes VALUES ('Paulo', 10500600701, 'paulo@provedorx.com', '1130001122');
+	Colaboradores
+		INSERT INTO Colaboradores VALUES ('Cassia Laura', 44576051357, 'Consultor', 'cassia@provedorx.com', '2230444375', 'Servidão Josefina Guedes, 38');
+        	Tipo_Brinquedo
+		INSERT INTO Tipo_Brinquedo VALUES (1, 'Cama Elástica Grande', 150);
+	Brinquedos
+		
+
